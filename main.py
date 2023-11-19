@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html", path_css="/static/css/style.css")
+    return render_template("index.html", path_css="/static/css/style.css", path_img="/static/img/гал.jpeg")
 
 @app.route('/calc')
 def calc():
